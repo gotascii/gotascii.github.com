@@ -2,12 +2,13 @@
 title: SORESCODE
 layout: default
 ---
-{% for post in site.posts %}
+{% for page in site.posts %}
   <div class="hentry">
-    <h2 class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2> 
-    <p class="updated">{{ post.date | date: "%m/%d/%Y" }}</p>
+    <h2 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2> 
+    <p class="updated">{{ page.date | date: "%m/%d/%Y" }}</p>
     <div class="entry-content">
-      {{ post.blurb }}
+      {{ page.blurb }}
+      {{ content }}
     </div>
   </div>
 {% endfor %}
