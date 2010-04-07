@@ -7,7 +7,7 @@ layout: default
     <h2 class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2> 
     <p class="updated">{{ post.date | date: "%m/%d/%Y" }}</p>
     <div class="entry-content">
-      <p>{{ post.blurb }}</p>
+      {{ post.blurb }}
     </div>
   </div>
 {% endfor %}
