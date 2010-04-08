@@ -3,5 +3,14 @@ title: SORESCODE
 layout: default
 ---
 {% for page in site.posts %}
-  {% include post.html %}
+  <div class="hentry">
+    <h2 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2> 
+    <p class="updated">{{ page.date | date: "%m/%d/%Y" }}</p>
+    <div class="entry-content">
+      {{ page.excerpt }}
+      {% if page.content.size > 1 %}
+        <p class="excerpt"><a href="{{ page.url }}">{{ page.title }} &raquo;</a></p>
+      {% endif %}
+    </div>
+  </div>
 {% endfor %}

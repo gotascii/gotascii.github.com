@@ -204,3 +204,7 @@ h2#search-results-title{margin-top:3em;}
     visibility: hidden;
 }
 * html .clearfix{zoom:1;}/*=ie*/
+
+.excerpt {
+  margin-bottom: 13px;
+}
