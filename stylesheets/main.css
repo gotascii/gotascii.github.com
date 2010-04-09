@@ -166,7 +166,6 @@ ul,ol{list-style-type:none;}
 .entrymeta{margin:.5em -1.5em -2.5em 0;text-align:right;}
 .entrymeta a{color:#ccc;text-decoration:underline;}
 .entrymeta a:hover{color:#ccc;}
-.entrymeta .commentslink {text-decoration:none;border-bottom:1px solid #f31400;}
 
 #footer a{text-decoration:none;color:#ccc;border-bottom:1px solid #f31400;}
 #section-headline{margin-top:3em;}
@@ -187,57 +186,63 @@ h2#search-results-title{margin-top:3em;}
   margin-bottom: 13px;
 }
 
-#disqus_thread {
-  margin: 1em 0;
-  padding: 2.5em 2.7em 1.5em;
-  background-color: #3c3c3c;
+.entrymeta .commentslink {text-decoration:none;border-bottom:1px solid #f31400;}
+
+
+#idc-container-parent #idc-container .idc-message {
+  margin-top: 0;
 }
 
-#disqus_thread h3 {
-  margin-bottom: 1.4em;
-  color: #ccc;
+#idc-container-parent #idc-container h3 {
+  margin-bottom: 7px;
 }
 
-#dsq-content #dsq-new-post div.dsq-request-user-info {
-  padding-bottom: 1em;
+#idc-container-parent #IDCommentNewThreadForm2 input {
+  width: 185px;
 }
 
-#dsq-content #dsq-new-post div.dsq-request-user-info img {
-  vertical-align: bottom;
+#idc-container-parent #IDCommentNewThreadForm2 .idc-column {
+  width: 33.3333%;
 }
 
-#dsq-content #dsq-new-post td.dsq-request-user-stats {
-  padding: 0 0 0 0.7em;
+#idc-container-parent #IDCommentNewThreadForm2 #IDCColumnURL .idc-text {
+  margin-left: 7px;
 }
 
-#dsq-content #dsq-new-post td.dsq-request-user-name {
-  padding: 0.25em 0px 0.25em 0.7em;
+#idc-container-parent #IDCommentNewThreadForm2 #IDCColumnEmailReply .idc-form-info {
+  margin-left: 4px;
 }
 
-#dsq-new-post #dsq-authenticate ul {
-  padding: 0.5em 0 1em 0;
+#idc-container-parent #IDCommentNewThreadForm2 #IDCColumnURL .idc-form-info {
+  margin-left: 7px;
 }
 
-#dsq-new-post #dsq-authenticate ul li a img {
-  vertical-align: bottom;
+#idc-container-parent #IDCommentNewThreadForm2 #IDCColumnEmailReply .idc-text {
+  margin-left: 4px;
+  width: 184px;
 }
 
-/*#comments ol{padding:1em 0 4em;}
-.comment{position:relative;margin-top:1em;border-top:1px solid #3c3c3c;padding:1em 1.5em .5em;}
-.comment-author{color:#ccc;}
-.comment-author cite{font-style:normal;}
-.comment-author a{color:#f31400;text-decoration:underline;}
-.comment-author a:hover{color:#ccc;}
-.comment-date{position:absolute;bottom:-1.5em;right:.5em;}
-.comment-date a{color:#999;}
-.comment-date a:hover{color:#ccc;}
-.comment blockquote{margin:1em 0;padding:0;}
-#do-comment-box{margin:3em 0;padding:.5em 2.7em 2.5em;background-color:#3c3c3c;}
-#do-comment-box p{margin:0 0 .5em;}
-#do-comment-box label{display:block;}
-#do-comment-box textarea{width:520px;padding:.3em;font-size:1em;}
-#do-comment-box input{width:250px;margin-bottom:.5em;padding:.1em;font-size:1em;}
-p.btn{text-align:right;}
-#do-comment-box p.btn input{width:auto;}
-#comment-errors{margin-bottom:1em;padding:.5em;background-color:#FFC;color:#333;}
-p.error{width:250px;padding:.3em;background-color:#E8EABC;color:red;}*/
+#idc-container-parent #IDCommentNewThreadForm2 #IDCColumnEmailLabel label {
+  margin-left: 4px;
+}
+
+#idc-container-parent #IDCommentNewThreadForm2 #IDCColumnURLLabel label {
+  margin-left: 7px;
+}
+
+#idc-container-parent #IDCommentNewThreadForm2 .idc-text {
+  margin-right: 0px;
+}
+
+#idc-container-parent #idc-container .idc-foot {
+  border: none;
+  float:right;
+}
+
+#idc-container-parent #idc-container {
+  margin-bottom: 0;
+}
+
+#idc-container-parent #idc-container #IDCommentsNewThreadCover {
+  margin-bottom: 0;
+}
