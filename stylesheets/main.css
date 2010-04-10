@@ -246,3 +246,40 @@ h2#search-results-title{margin-top:3em;}
 #idc-container-parent #idc-container #IDCommentsNewThreadCover {
   margin-bottom: 0;
 }
+
+#idc-container #idc-cover .idc-c {
+  background: #3c3c3c;
+}
+
+#idc-container #idc-cover .idc-c-h {
+  background: #3c3c3c;
+}
+
+#idc-container #idc-cover .idc-c-b {
+  padding: 7px 14px 7px 7px;
+}
+
+#idc-container #IDCommentReplyDiv {
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+#idc-container #idc-cover #IDCommentReplyName {
+  margin-bottom: 8px;
+}
+
+#idc-container #idc-cover #IDCPostNavReply {
+  display: none;
+}
+
+#idc-container #idc-cover .idc-c-t-inner {
+  padding-right: 20px;
+}
+
+#idc-container #IDCThread #IDCPostNav {
+  display: none; 
+}
+
+#idc-container #idc-cover #txtComment {
+  width: 200px;
+}
