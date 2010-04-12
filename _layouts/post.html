@@ -10,8 +10,39 @@ layout: default
   </div>
 </div>
 
-<div id="comments"></div>
+<div id="comments">
+	<h3 id="no-comments-heading">No comments yet.</h3>
 
-<form action="http://localhost:4567/comments" method="post">
-  <input type="text" name="body">
-</form>
+  <ol class="commentlist">
+    <li class="comment" id="comment-5">
+  	  <p class="comment-author"><cite><a href="http://www.google.com">Kelly Brown</a></cite> says:</p>
+  		<p class="comment-date">
+  		  <a href="#comment-5">06/12/2009</a>
+  		</p>
+  		<blockquote>Hi, gr8 post thanks for posting. Information is useful!</blockquote>
+  	</li>
+  </ol>
+
+  <div id="do-comment-box">
+	  <h3>Write your comment:</h3>
+	  <form id="comment-form" method="post" action="http://localhost:4567/comments">
+	    <p>
+		    <label for="author">Name (required)</label>
+		    <input class="required" type="text" name="comment[author]" />
+	    </p>
+	    <p>
+		    <label for="email">Email (required, will not be published)</label>
+		    <input class="required email" type="text" name="comment[email]" />
+	    </p>
+	    <p>
+		    <label for="url">Website (if you have one)</label>
+		    <input type="text" name="comment[url]" />
+	    </p>
+	    <p>
+	      <label for="url">Your Comment (required)</label>
+	      <textarea class="required" name="comment[body]" id="comment" cols="50" rows="10"></textarea>
+	    </p>
+	    <p class="btn"><input type="submit" value="Submit Comment" /></p>
+	  </form>
+  </div>
+</div>

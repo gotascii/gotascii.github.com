@@ -186,3 +186,45 @@ h2#search-results-title{margin-top:3em;}
 .excerpt {
   margin-bottom: 13px;
 }
+
+#comments{margin:1em 0;}
+
+#comments h3 {
+  margin: 1.3em 0 1em;
+  color: #ccc;
+}
+
+#comments ol{padding:1em 0 4em;}
+.comment{position:relative;margin-top:1em;border-top:1px solid #3c3c3c;padding:1em 1.5em .5em;}
+.comment-author{color:#ccc;}
+.comment-author cite{font-style:normal;}
+.comment-author a{color:#f31400;text-decoration:underline;}
+.comment-author a:hover{color:#ccc;}
+.comment-date{position:absolute;bottom:-1.5em;right:.5em;}
+.comment-date a{color:#999;}
+.comment-date a:hover{color:#ccc;}
+.comment blockquote{margin:1em 0;padding:0;}
+#do-comment-box{margin:3em 0;padding:.5em 2.7em 2.5em;background-color:#3c3c3c;}
+#do-comment-box p{margin:0 0 .5em;}
+#do-comment-box label{display:block;}
+#do-comment-box textarea{width:520px;padding:.3em;font-size:1em;}
+
+#do-comment-box input{
+  width: 250px;
+  margin-bottom: .5em;
+  padding: .1em;
+  font-size: 1.5em;
+}
+
+#do-comment-box #comment-form p.btn {
+  text-align:right;
+  margin: 1.5em 0 0 0;
+}
+
+#do-comment-box p.btn input {
+  width:auto;
+  margin-bottom: 0;
+}
+
+#comment-errors{margin-bottom:1em;padding:.5em;background-color:#FFC;color:#333;}
+p.error{width:250px;padding:.3em;background-color:#E8EABC;color:red;}
