@@ -9,3 +9,9 @@ layout: default
     {{ page.content }}
   </div>
 </div>
+
+<div id="comments"></div>
+
+<form action="http://localhost:4567/comments" method="post">
+  <input type="text" name="body">
+</form>
