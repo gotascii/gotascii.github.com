@@ -10,18 +10,20 @@ layout: default
   </div>
 </div>
 
+<script type="text/html" id="comment_tmpl">
+  <li class="comment" id="comment-<%=id%>">
+    <p class="comment-author">
+      <cite><a href="<%=url%>"><%=author%></a></cite> says:
+    </p>
+    <p class="comment-date">
+      <a href="#comment-<%=id%>">omg a date</a>
+    </p>
+    <blockquote><%=body%></blockquote>
+  </li>
+</script>
+
 <div id="comments">
 	<h3 id="no-comments-heading">No comments yet.</h3>
-
-  <ol class="commentlist">
-    <li class="comment" id="comment-5">
-  	  <p class="comment-author"><cite><a href="http://www.google.com">Kelly Brown</a></cite> says:</p>
-  		<p class="comment-date">
-  		  <a href="#comment-5">06/12/2009</a>
-  		</p>
-  		<blockquote>Hi, gr8 post thanks for posting. Information is useful!</blockquote>
-  	</li>
-  </ol>
 
   <div id="do-comment-box">
 	  <h3>Write your comment:</h3>
