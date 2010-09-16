@@ -2,26 +2,37 @@
 title: "SORESCODE: Resume"
 layout: default
 ---
-<div class="resume-heading">
+<div id="resume-heading">
   <h2>Justin Marney</h2>
-  <a href="/assets/resume_no_cover.pdf">PDF</a>
+  <a id="pdf-link" href="/assets/resume_no_cover.pdf">PDF</a>
+  <span id="phone-number">571-438-8271</span>
   <a href="mailto:gotascii@gmail.com">gotascii@gmail.com</a>
 </div>
+<div class="boxed section-heading">Objective</div>
+<ul class="list">
+  <li>Create elegant, scalable software with a strong focus on <a href="#community">supporting the local community</a> through <a href="#open-source">open-source software</a>.</li>
+</ul>
 <div class="boxed section-heading experience-heading">Experience</div>
 <ul class="experience">
   <li class="boxed">
     <div class="job-heading job-title">Developer, <a href="http://viget.com">Viget Labs</a></div><div class="job-heading job-time-span">January 2008 - Present</div>
     <ul class="achievements">
       <li>
-        Act as technical lead on multiple Ruby on Rails projects with responsibilities that include leading weekly code reviews, identifying and implementing refactoring opportunities, and maintaining a quality code base. Provide mentorship to junior developers via frequent pair-programming sessions.
+        Act as technical lead on multiple Ruby on Rails projects with responsibilities that include leading weekly code reviews, identifying and implementing refactoring opportunities, and maintaining a quality code base via a disciplined test-driven development methodology. Provide mentorship to junior developers via frequent pair-programming sessions.
       </li>
+      <li>
+        <a href="http://bypasslane.com/">Bypass</a><br/>
+        Developed a mobile point of sale platform using <a href="http://jqtouch.com/">jQtouch</a> and Ruby on Rails. The platform is comprised of a web-based mobile ordering application, touch screen fulfillment interface, and an administration application that services multiple stadium venues.
+      </li>
+
+      <li>
+        <a href="http://dwellagent.com/">DwellAgent</a><br/>
+        Worked as lead developer on a subscription based real estate marketing application using Ruby on Rails. The application allows real estate agents to generate custom listing pages with virtual tours, custom themes, and domain name support. In addition, agents can generate and manage an agency website with featured listings, <a href="http://www.idxlistings.com/">IDX</a> integration, and several supporting CMS features.
+      </li>
+
       <li>
         <a href="http://projects.kaboom.org/">KaBOOM! Playspace Builder</a><br/>
         Led a team of developers to create a playground project management system using Ruby on Rails.  The application provides both users and admins with a toolset to assist in planning and building community-driven playground construction projects.
-      </li>
-      <li>
-        <a href="http://i-agent.com">I-Agent</a><br/>
-        Developed a real estate search and lead generation application using a custom built Ruby interface to the premiere Mid-Atlantic MLS and Ruby on Rails.  The project resulted in <a href="http://www.viget.com/extend/radarb-a-ruby-gem-that-makes-using-the-outsidein-api-simple/">radarb</a>, the open-source Outside.in API wrapper.
       </li>
       <li>
         <a href="http://heycraigapp.com">Heycraig</a><br/>
@@ -51,7 +62,45 @@ layout: default
   <li>B.S., Computer Science, George Mason University, 2006</li>
 </ul>
 
-<div class="boxed section-heading">Open Source</div>
+<div class="boxed section-heading"><a name="community">Community</a></div>
+<ul class="list">
+  <li>
+    <a href="http://rubyhacknight.com/">Ruby Hacknight</a><br/>
+    Co-Founded a Ruby user group focused on bringing together beginner and experienced hackers in a friendly setting.
+  </li>
+  <li>
+    <a href="http://www.viget.com/extend/hackday-recap/">Hackday</a><br/>
+    Helped plan and lead a series of free 1/2 day workshops on various Ruby and Ruby on Rails topics such as Refactoring Rails Controllers & Test-Driven Development in Rails.
+  </li>
+  <li>
+    <a href="http://sorescode.com/2009/8/25/learning-processing-introduction">Learning Processing</a><br/>
+    Started a bi-weekly session focused on teaching artists and designers how to program using Processing.
+  </li>
+</ul>
+
+<div class="boxed section-heading">Presentations</div>
+<ul class="list">
+  <li>
+    <a href="http://sorescode.com/2010/7/13/distributing-your-data">Distributing Your Data</a>: A presentation on some of the concepts behind distributed data stores. Presented at <a href="http://devnation.us/events/10">Devnation Portland</a>.
+  </li>
+  <li>
+    <a href="http://github.com/gotascii/talks/tree/master/artandcode/">ART&&CODE</a>: Presented to the staff at Viget Labs in an effort to generate interest in Processing among non-developers.
+  </li>
+  <li>
+    <a href="http://sorescode.com/2009/6/2/monome-lily">Lily and the Monome</a>: A presentation on visual programming languages, their purpose and their features. Presented at <a href="http://devnation.us/events/2">Developer Day DC</a>.
+  </li>
+  <li>
+    <a href="http://github.com/gotascii/talks/tree/master/drb/">DRb, Rinda, & Mack</a>: A small presentation on concurrency in Ruby using DRb, Rinda, and Mack.
+  </li>
+  <li>
+    <a href="http://github.com/gotascii/talks/tree/master/fixture_replacement/">fixture_replacement</a>: How to escape the bonds of using yaml fixture data.
+  </li>
+  <li>
+    <a href="http://github.com/gotascii/talks/tree/master/searchlogic/">searchlogic</a>: A brief introduction to searchlogic.
+  </li>
+</ul>
+
+<div class="boxed section-heading"><a name="open-source">Open Source</a></div>
 <ul class="list">
   <li><a href="http://github.com/vigetlabs/radarb">radarb</a>: A ruby gem that makes using the Outside.in API simple</li>
   <li><a href="http://github.com/vigetlabs/simple_importer">simple_importer</a>: Simple API for importing from csv, tsv and xml</li>
@@ -88,44 +137,6 @@ layout: default
   
     <li><a href="http://github.com/gotascii/js-templates-benchmark">js-templates-benchmark</a>: Benchmarking Handlebars.js and Moustache.js</li>
   
-</ul>
-
-<div class="boxed section-heading">Community</div>
-<ul class="list">
-  <li>
-    <a href="http://rubyhacknight.com/">Ruby Hacknight</a><br/>
-    Co-Founded a Ruby user group focused on bringing together beginner and experienced hackers in a friendly setting.
-  </li>
-  <li>
-    <a href="http://www.viget.com/extend/hackday-recap/">Hackday</a><br/>
-    Helped plan and lead a series of free 1/2 day workshops on various Ruby and Ruby on Rails topics such as Refactoring Rails Controllers & Test-Driven Development in Rails.
-  </li>
-  <li>
-    <a href="http://sorescode.com/2009/8/25/learning-processing-introduction">Learning Processing</a><br/>
-    Started a bi-weekly session focused on teaching artists and designers how to program using Processing.
-  </li>
-</ul>
-
-<div class="boxed section-heading">Presentations</div>
-<ul class="list">
-  <li>
-    <a href="http://sorescode.com/2010/7/13/distributing-your-data">Distributing Your Data</a>: A presentation on some of the concepts behind distributed data stores. Presented at <a href="http://devnation.us/events/10">Devnation Portland</a>.
-  </li>
-  <li>
-    <a href="http://github.com/gotascii/talks/tree/master/artandcode/">ART&&CODE</a>: Presented to the staff at Viget Labs in an effort to generate interest in Processing among non-developers.
-  </li>
-  <li>
-    <a href="http://sorescode.com/2009/6/2/monome-lily">Lily and the Monome</a>: A presentation on visual programming languages, their purpose and their features. Presented at <a href="http://developer-day.com/events/2009-dc.html">Developer Day DC</a>.
-  </li>
-  <li>
-    <a href="http://github.com/gotascii/talks/tree/master/drb/">DRb, Rinda, & Mack</a>: A small presentation on concurrency in Ruby using DRb, Rinda, and Mack.
-  </li>
-  <li>
-    <a href="http://github.com/gotascii/talks/tree/master/fixture_replacement/">fixture_replacement</a>: How to escape the bonds of using yaml fixture data.
-  </li>
-  <li>
-    <a href="http://github.com/gotascii/talks/tree/master/searchlogic/">searchlogic</a>: A brief introduction to searchlogic.
-  </li>
 </ul>
 
 <div class="boxed section-heading">Writing</div>
