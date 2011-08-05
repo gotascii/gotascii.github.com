@@ -1,6 +1,6 @@
 Justin Marney
 (571) 438-8271
-gotasciiy@gmail.com    
+gotascii@gmail.com    
 http://github.com/gotascii
 Arlington, VA
 
@@ -18,23 +18,25 @@ Career Highlights (So Far)
 Experience
   Senior Rails Developer, Viget Labs, Falls Church, VA (01/2011-Current)
   Rails Developer, Viget Labs, Falls Church, VA (02/2008-01/2011)
-    * Lead engineer on seven successfully launched Rails applications.
+    Responsibilities
     * Solve integration challenges including enterprise SOAP APIs, MRIS real-estate databases, and Healthcare data exchanges.
-    * Responsible for prioritizing features, executing iterations, and refactoring existing code-bases.
-    * Work with company founders to identify team goals, infrastructure technologies, and development methodologies.
+    * Prioritize features, execute iterations, and refactor existing code-bases.
     * Evaluate and interview candidates, as well as train and mentor Jr. developers.
+    * Work with company founders to identify and implement team goals, infrastructure technologies, and development methodologies.
 
     Project Portfolio
-    * BypassLane (http://bypasslane.com), Lead Developer
-      HTML5 mobile web app that lets you skip the concession line at over 15 stadium venues by ordering food on your phone.
-      Platform consists of a mobile ordering application, touch screen fulfillment interface, and an admin management tool.
+    * Lead engineer on seven successfully launched Rails applications including the following.
+    * Heycraig (http://heycraigapp.com), Developer
+      Customized sinatra and delayed_job app that creates real-time email alerts for items on Craigslist.
+      Uses background processes to manage bounced emails in order to maintain high email delivery rates.
+      Currently process 6K individual searches and services over 5K users.
     * Gofivo (http://gofivo.com), Lead Developer
       Real-time deal app that gives businesses fine-grained control over how and when deals are delivered to their customers.
       Allows users to receive sms or email alerts for offers that match custom search criteria.
       Launched in May 2011, the app currently services 82 businesses and over 2K users in Washington, DC.
-    * Heycraig (http://heycraigapp.com), Developer
-      Customized sinatra and delayed_job app that creates real-time email alerts for items on Craigslist.
-      Uses background processes to manage bounced emails and currently has 6K individual searches and over 5K users.
+    * BypassLane (http://bypasslane.com), Lead Developer
+      HTML5 mobile web app that lets you skip the concession line at over 15 stadium venues by ordering food on your phone.
+      Platform consists of a mobile ordering application, touch screen fulfillment interface, and an admin management tool.
 
   C# Developer, Matrix Group, Alexandria, VA (2004-2007)
     * Developed multi-tier application using MSSQL, NHibernate, C#, and ASP.Net in order to streamline a paper-based process.
@@ -46,11 +48,11 @@ Experience
     * Performed network administration duties at 9 small-to-mid-size client networks in the D.C. area.
 
 Community Contributions
-  * Ruby Hacknight
+  * Founder of Ruby Hacknight
     Organized monthly meetups for 2 years with a user base of over 250 members.
     http://www.meetup.com/rubyhacknight/
   * Hackday
-    Led a series of workshops on Ruby topics such as Refactoring Controllers, Test-Driven Development, and Ruby Meta-Programming.
+    Led a series of workshops on Ruby topics including Ruby metaprogramming, test-driven development, and refactoring Rails controllers.
     http://www.viget.com/extend/hackday-recap/
   * Learning Processing
     Started a bi-weekly meetup focused on teaching artists and designers how to program using Processing.
