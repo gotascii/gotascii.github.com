@@ -10,7 +10,7 @@ Summary of Qualifications
   * Interested in building distributed systems and solving large-scale challenges.
 
 Career Highlights (So Far)
-  * Advanced Viget's software development methodology to include pair-programming, iteration planning, and acceptance-style tickets.
+  * Advanced Viget's development methodology to include pair-programming, iteration planning, and acceptance-style tickets.
   * Presented a talk on the fundamentals of distributed systems at Devnation Portland.
   * Planned Hackday, a series of hands-on Ruby meta-programming workshops attended by over 25 people.
   * Organized Ruby Hacknight, a monthly Ruby users group focused on bringing together beginner and experienced hackers.
@@ -29,16 +29,16 @@ Experience
       HTML5 mobile web app that lets you skip the concession line at over 15 stadium venues by ordering food on your phone.
       Platform consists of a mobile ordering application, touch screen fulfillment interface, and an admin management tool.
     * Gofivo (http://gofivo.com), Lead Developer
-      Real-time deal app that gives local businesses fine-grained control over how and when deals are delivered to their customers.
+      Real-time deal app that gives businesses fine-grained control over how and when deals are delivered to their customers.
       Allows users to receive sms or email alerts for offers that match custom search criteria.
       Launched in May 2011, the app currently services 82 businesses and over 2K users in Washington, DC.
     * Heycraig (http://heycraigapp.com), Developer
-      Customized sinatra and delayed_job app that creates real-time email alerts for items people are searching for on Craigslist.
+      Customized sinatra and delayed_job app that creates real-time email alerts for items on Craigslist.
       Uses background processes to manage bounced emails and currently has 6K individual searches and over 5K users.
 
   C# Developer, Matrix Group, Alexandria, VA (2004-2007)
-    * Developed multi-tier application using MSSQL, NHibernate, C#, and ASP.Net in order to streamline a lengthy paper-based process.
-    * Focused on applying design patterns and an object-oriented architecture to handle multiple system upgrades over a 3-year period.
+    * Developed multi-tier application using MSSQL, NHibernate, C#, and ASP.Net in order to streamline a paper-based process.
+    * Focused on applying design patterns and object-oriented architecture to handle system upgrades over a 3-year period.
     * Developed e-commerce and membership databases by integrating with an in-house Python association management system.
 
   ASP Developer, Innovative Business Technology (Acquired by Dataprise), Fairfax, VA (1999 - 2004)
