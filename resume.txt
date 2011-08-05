@@ -5,36 +5,41 @@ http://github.com/gotascii
 Arlington, VA
 
 Summary of Qualifications
-	* Expert Ruby and Ruby on Rails developer.
-	* Practitioner of test-driven development, pair programming, and agile methodology.
+  * Expert Ruby and Ruby on Rails developer.
+  * Practitioner of test-driven development, pair programming, and agile methodology.
   * Interested in building distributed systems and solving large-scale challenges.
 
 Career Highlights (So Far)
-  * Advanced Viget's internal software development methodology to include pair-programming, iteration planning meetings, and acceptance-style ticket writing.
+  * Advanced Viget's software development methodology to include pair-programming, iteration planning, and acceptance-style tickets.
   * Presented a talk on the fundamentals of distributed systems at Devnation Portland.
-	* Planned and led Hackday, a two-part Ruby meta-programming workshop in 2010 for DC area developers. This was a free, hands-on workshop that was open to the public and attended by ~25 people.
-	* Organized and maintained Ruby Hacknight, a monthly Ruby users group focused on bringing together beginner and experienced hackers in a friendly setting.
+  * Planned Hackday, a series of hands-on Ruby meta-programming workshops attended by over 25 people.
+  * Organized Ruby Hacknight, a monthly Ruby users group focused on bringing together beginner and experienced hackers.
 
 Experience
   Senior Rails Developer, Viget Labs, Falls Church, VA (01/2011-Current)
   Rails Developer, Viget Labs, Falls Church, VA (02/2008-01/2011)
-    * Lead architect on seven successfully launched Ruby on Rails applications with integration challenges that included enterprise SOAP APIs, MRIS real-estate systems, and Healthcare data exchanges.
-    * Act as technical lead on custom development projects with responsibilities that include prioritizing features, executing iterations and releases, and implementing refactoring opportunities.
-    * Work closely with company founders to identify team goals, infrastructure technologies, and development methodologies.
+    * Lead engineer on seven successfully launched Rails applications.
+    * Solve integration challenges including enterprise SOAP APIs, MRIS real-estate databases, and Healthcare data exchanges.
+    * Responsible for prioritizing features, executing iterations, and refactoring existing code-bases.
+    * Work with company founders to identify team goals, infrastructure technologies, and development methodologies.
     * Evaluate and interview candidates, as well as train and mentor Jr. developers.
 
     Project Portfolio
     * BypassLane (http://bypasslane.com), Lead Developer
-      HTML5 mobile web app that lets you skip the concession line at a stadium venue by ordering food on your phone. The platform is comprised of a mobile ordering application, touch screen fulfillment interface, and an administration application that services over 15 stadium venues.
+      HTML5 mobile web app that lets you skip the concession line at over 15 stadium venues by ordering food on your phone.
+      Platform consists of a mobile ordering application, touch screen fulfillment interface, and an admin management tool.
     * Gofivo (http://gofivo.com), Lead Developer
-      Real-time deal app that gives local businesses fine-grained control over how and when deals are delivered to their customers. Allows users to receive sms or email alerts for offers that match custom search criteria. Launched in May 2011, the app currently services 82 businesses and over 2K users in Washington, DC.
+      Real-time deal app that gives local businesses fine-grained control over how and when deals are delivered to their customers.
+      Allows users to receive sms or email alerts for offers that match custom search criteria.
+      Launched in May 2011, the app currently services 82 businesses and over 2K users in Washington, DC.
     * Heycraig (http://heycraigapp.com), Developer
-      Highly customized sinatra and delayed_job app that allows people to create real-time email alerts for items they are searching for on Craigslist. Uses background processes to manage bounced emails and currently has 6K individual searches and over 5K users.
+      Customized sinatra and delayed_job app that creates real-time email alerts for items people are searching for on Craigslist.
+      Uses background processes to manage bounced emails and currently has 6K individual searches and over 5K users.
 
   C# Developer, Matrix Group, Alexandria, VA (2004-2007)
-    * Developed multi-tier application using MSSQL, NHibernate, C#, and ASP.Net in order to streamline a lengthy paper and mail-based process.
-    * Focused on applying design patterns and an object-oriented architecture to handle multiple core system upgrades over a 3-year period.
-    * Developed a central e-commerce and membership database by integrating with an in-house Python-based association management system.
+    * Developed multi-tier application using MSSQL, NHibernate, C#, and ASP.Net in order to streamline a lengthy paper-based process.
+    * Focused on applying design patterns and an object-oriented architecture to handle multiple system upgrades over a 3-year period.
+    * Developed e-commerce and membership databases by integrating with an in-house Python association management system.
 
   ASP Developer, Innovative Business Technology (Acquired by Dataprise), Fairfax, VA (1999 - 2004)
     * Managed a web application development project for a third-party health care claims management company.
@@ -45,23 +50,22 @@ Community Contributions
     Organized monthly meetups for 2 years with a user base of over 250 members.
     http://www.meetup.com/rubyhacknight/
   * Hackday
-    Planned and lead a series of free 1/2 day workshops on various Ruby and Ruby on Rails topics such as Refactoring Rails Controllers, Test-Driven Development in Rails, and Ruby Meta-Programming.
+    Led a series of workshops on Ruby topics such as Refactoring Controllers, Test-Driven Development, and Ruby Meta-Programming.
     http://www.viget.com/extend/hackday-recap/
   * Learning Processing
-    Started a bi-weekly session focused on teaching artists and designers how to program using Processing.
+    Started a bi-weekly meetup focused on teaching artists and designers how to program using Processing.
     http://sorescode.com/2009/08/25/learning-processing-introduction.html
 
 Open Source
-  * Github
-    Authored multiple open-source projects using technologies including node.js, erlang, puredata, and processing.
+  * Author multiple open-source projects using technologies such as Node.js, Erlang, Puredata, and Processing.
+    http://github.com/gotascii
 
 Additional Technical Skills
-  * Hacking together Erlang/OTP applications on and off for the past 3 years.
-  * Currently using Node.js and Coffeescript to build unit-testable javascript Max/MSP modules for use in a custom midi sequencer.
-  * Recently started using hosted Chef to manage multiple production servers for a handful of free-lance clients. Currently devising a way to integrate Chef into Viget's infrastructure.
+  * Hacking Erlang/OTP on and off for the past 3 years.
+  * Building unit-testable Max/MSP modules using Node.js and Coffeescript.
+  * Using hosted Chef to manage production servers for free-lance client deployments.
 
-Education: Virginia Commonwealth University (VCU), Richmond, VA (2001-2006)
-	* B.S. in Religious Studies, specialization in Tibetan Buddhist Debate
-	* With lauded Indo-Tibetan scholar Dr. Daniel Perdue, I co-demonstrated traditional Tibetan Buddhist debate (in English) at the Freer-Sackler Gallery, Smithsonian Institution, in DC
+Education
+  * B.S., Computer Science, George Mason University (GMU), 2006
 
 See http://sorescode.com/resume.html for additional information.

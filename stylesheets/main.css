@@ -23,8 +23,24 @@ body{
 #header img{border:0px;}
 
 #footer{
-	border-top:1px solid #3c3c3c;
-	margin-top: 15px;
+	background: #292929;
+	margin-top: 7px;
+	padding: 0 9px 100px 13px;
+}
+
+#footer p {
+	float: left;
+	margin-top: 7px;
+}
+
+#footer ul {
+	float: right;
+	margin-top: 7px;
+}
+
+#footer li {
+	float: right;
+	padding-left: 5px;
 }
 
 #nav {
