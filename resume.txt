@@ -18,10 +18,10 @@ Career Highlights (So Far)
 Experience
   Senior Rails Developer, Viget Labs, Falls Church, VA (2008-Current)
     Responsibilities
-    * Solve integration challenges including enterprise SOAP APIs, MRIS real-estate databases, and Healthcare data exchanges.
     * Prioritize features, execute iterations, and refactor existing code-bases.
-    * Evaluate and interview candidates, as well as train and mentor Jr. developers.
+    * Solve integration challenges including enterprise SOAP APIs, MRIS real-estate databases, and Healthcare data exchanges.
     * Work with company founders to identify and implement team goals, infrastructure technologies, and development methodologies.
+    * Evaluate and interview candidates, as well as train and mentor Jr. developers.
 
     Project Portfolio
     * Lead engineer on seven successfully launched Rails applications including the following.
