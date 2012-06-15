@@ -1,8 +1,7 @@
 Justin Marney
-(571) 438-8271
-gotascii@gmail.com    
+gotascii@gmail.com
 http://github.com/gotascii
-Arlington, VA
+San Francisco, CA
 
 Summary of Qualifications
   * Expert Ruby and Ruby on Rails developer.
@@ -16,7 +15,9 @@ Career Highlights (So Far)
   * Organized Ruby Hacknight, a monthly Ruby users group focused on bringing together beginner and experienced hackers.
 
 Experience
-  Senior Rails Developer, Viget Labs, Falls Church, VA (2008-Current)
+  Senior Rails Developer, Yammer, San Francisco, CA (2011-Present)
+
+  Senior Rails Developer, Viget Labs, Falls Church, VA (2008-2011)
     Responsibilities
     * Prioritize features, execute iterations, and refactor existing code-bases.
     * Solve integration challenges including enterprise SOAP APIs, MRIS real-estate databases, and Healthcare data exchanges.
