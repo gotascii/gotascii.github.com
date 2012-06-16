@@ -15,7 +15,7 @@ Career Highlights (So Far)
   * Organized Ruby Hacknight, a monthly Ruby users group focused on bringing together beginner and experienced hackers.
 
 Experience
-  Senior Rails Developer, Yammer, San Francisco, CA (2011-Present)
+  Engineer, Yammer, San Francisco, CA (2011-Present)
 
   Senior Rails Developer, Viget Labs, Falls Church, VA (2008-2011)
     Responsibilities
