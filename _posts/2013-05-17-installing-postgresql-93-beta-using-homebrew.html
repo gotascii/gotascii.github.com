@@ -15,7 +15,7 @@ brew tap petere/postgresql
 brew install postgresql-9.3
 {% endhighlight %}
 
-<p>This will install postgresql into <code>/usr/local/opt/postgres-9.3</code>. It will not symlink any of the executables in <code>/usr/local/opt/postgres-9.3/bin</code> to <code>/usr/local/bin</code> because the formula was added via brew tap. This means that should you have an existing brew-based postgres install the executables won't be overwritten by 9.3. It also means that there's a little more legwork involved in getting everything setup. Currently, I'm just calling the executables directly via their full path, but you could add <code>/usr/local/opt/postgresql-9.3/bin</code> to your PATH and avoid lots of typing.</p>
+<p>This will install postgresql into <code>/usr/local/opt/postgres-9.3</code>. It will not symlink any of the executables in <code>/usr/local/opt/postgres-9.3/bin</code> to <code>/usr/local/bin</code> because the formula was added via brew tap. This means that the existing brew-based postgres executables won't be overwritten by 9.3. It also means that there's a little more legwork involved in getting everything setup. Currently, I'm just calling the executables directly via their full path, but you could add <code>/usr/local/opt/postgresql-9.3/bin</code> to your PATH and avoid lots of typing.</p>
 
 <p>At this point, we need to initialize the database.</p>
 
