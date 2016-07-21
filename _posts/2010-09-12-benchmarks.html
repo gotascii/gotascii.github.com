@@ -2,9 +2,33 @@
 layout: post
 title: Handlebars.js & Mustache.js Benchmarks
 excerpt:
+  <p><a href="http://yehudakatz.com">Yehuda Katz</a> just released
+  <a href="http://github.com/wycats/handlebars.js">Handlebars.js</a>, a compiled
+  javascript <a href="http://mustache.github.com/">Mustache</a> implementation,
+  similar to <a href="http://github.com/janl/mustache.js">Mustache.js</a> with
+  some useful additional features. The <a href="http://github.com/wycats/handlebars.js/blob/master/README.markdown">README</a>
+  mentions,</p><blockquote>
+    "In a rough performance test, precompiled Handlebars.js
+    templates rendered in about half the time of Mustache templates. It would be a
+    shame if it were any other way, since they were precompiled, but the difference
+    in architecture does have some big performance advantages."
+  </blockquote>
 ---
-<a href="http://yehudakatz.com">Yehuda Katz</a> just released <a href="http://github.com/wycats/handlebars.js">Handlebars.js</a>, a compiled javascript <a href="http://mustache.github.com/">Mustache</a> implementation, similar to <a href="http://github.com/janl/mustache.js">Mustache.js</a> with some useful additional features. The <a href="http://github.com/wycats/handlebars.js/blob/master/README.markdown">README</a> mentions, <blockquote>"In a rough performance test, precompiled Handlebars.js templates rendered in about half the time of Mustache templates. It would be a shame if it were any other way, since they were precompiled, but the difference in architecture does have some big performance advantages."</blockquote> Interested in the specifics, I did some benchmarking based on Brian Landau's <a href="http://www.viget.com/extend/benchmarking-javascript-templating-libraries/">Benchmarking Javascript Templating Libraries</a> and came up with the following results.
+<p>
+  Interested in the specifics, I did some benchmarking based on Brian Landau's
+  <a href="http://www.viget.com/extend/benchmarking-javascript-templating-libraries/">Benchmarking Javascript Templating Libraries</a>
+  and came up with the following results.
+  <img src="http://chart.apis.google.com/chart?chxl=1:|ms&chxp=1,50&chxr=0,0,1000&chxt=y,y&chbh=a,15&chs=500x300&cht=bvg&chco=FFCC33,FF9900,3072F3,224499&chds=0,1000,0,1000,0,1000,0,1000&chd=t:98|202.5|309.2|889.8&chdl=Simple+Handlebars|Simple+Mustache|Loop+Handlebars|Loop+Mustache&chtt=Handlebars.js+%26+Mustache.js+Benchmarks" />
+</p>
 
-<img src ="http://chart.apis.google.com/chart?chxl=1:|ms&chxp=1,50&chxr=0,0,1000&chxt=y,y&chbh=a,15&chs=500x300&cht=bvg&chco=FFCC33,FF9900,3072F3,224499&chds=0,1000,0,1000,0,1000,0,1000&chd=t:98|202.5|309.2|889.8&chdl=Simple+Handlebars|Simple+Mustache|Loop+Handlebars|Loop+Mustache&chtt=Handlebars.js+%26+Mustache.js+Benchmarks" />
-
-I made some tweaks to the overall benchmarking approach, isolating the actual template rendering from any DOM manipulation and removing the setTimeout mentioned in <a href="http://www.quirksmode.org/blog/archives/2009/08/when_to_read_ou.html">PPK’s benchmarking methodology</a> as it was no longer necessary. The time it took to render the template 5k times was recorded and averaged out over 10 tries. Not terribly scientific, but hopefully good enough to show that in both simple and iterative cases Handlebars.js is about 2x as fast. The code I used to achieve these results is in my <a href="http://github.com/gotascii/js-templates-benchmark">js-templates-benchmark</a> repo.
+<p>I made some tweaks to the overall benchmarking approach, isolating the actual
+template rendering from any DOM manipulation and removing the setTimeout
+mentioned in <a
+href="http://www.quirksmode.org/blog/archives/2009/08/when_to_read_ou.html">PPK’s
+benchmarking methodology</a> as it was no longer necessary. The time it took to
+render the template 5k times was recorded and averaged out over 10 tries. Not
+terribly scientific, but hopefully good enough to show that in both simple and
+iterative cases Handlebars.js is about 2x as fast. The code I used to achieve
+these results is in my <a
+href="http://github.com/gotascii/js-templates-benchmark">js-templates-benchmark</a>
+repo.</p>

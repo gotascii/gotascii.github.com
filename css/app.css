@@ -1,0 +1,169 @@
+h1 {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto 2rem auto;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+object {
+  display: block;
+  margin: 2rem auto 2rem auto;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+figure {
+  margin: 0 0 1rem 0;
+}
+
+code {
+  padding: 0;
+  background-color: inherit;
+  border: none;
+}
+
+pre {
+  padding-left: 0.3rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 3.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ul.spaced li {
+  padding-bottom: 0.5rem;
+}
+
+ul.spaced ul {
+  margin: 0;
+}
+
+ul.spaced ul li {
+  padding: 0;
+}
+
+.line-separator {
+  margin: 1.5rem auto 2.5rem auto;
+  width: 40%;
+}
+
+.combiner {
+  margin-bottom: 0;
+}
+
+.separator {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-bottom: 3rem;
+}
+
+img {
+  display: block;
+  margin: 2rem auto 2rem auto;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+a:hover, a:focus {
+  color: #2199e8;
+  text-decoration: underline;
+}
+
+.published-date {
+  font-style: italic;
+  color: #999;
+  margin-right: 0.5rem;
+  float: right;
+  font-size: 0.8rem;
+}
+
+.article {
+  margin-bottom: 1.7rem;
+}
+
+.article p a,
+.article p a:hover,
+.article p a:focus,
+ul a,
+ul a:hover,
+ul a:focus {
+  font-weight: bold;
+  color: #000;
+}
+
+.extended-article {
+  max-height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3.5rem;
+}
+
+.extended-article .read-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center; 
+  padding: 2rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left 30,
+    color-stop(0, rgba(255, 255, 255, 0)),
+    color-stop(1, rgba(255, 255, 255, 100)));
+}
+
+.extended-article .read-more a {
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 3rem
+  }
+}

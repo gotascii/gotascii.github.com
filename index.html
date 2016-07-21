@@ -1,20 +1,13 @@
 ---
-title: SORESCODE
+title: Justin Marney
 layout: default
 ---
 {% for page in site.posts %}
-  <div class="hentry">
-    <h2 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2> 
-    <p class="updated">{{ page.date | date: "%m/%d/%Y" }}</p>
-    <div class="entry-content">
-      {% if page.excerpt %}
-        {{ page.excerpt }}
-        {% if page.content.size > 1 %}
-          <p class="excerpt"><a href="{{ page.url }}">{{ page.title }} &raquo;</a></p>
-        {% endif %}
-      {% else %}
-        {{ page.content }}
-      {% endif %}
-    </div>
+  <div class="column row article{% if page.excerpt != page.content %} extended-article{% endif %}">
+    <h3><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
+    {% if page.excerpt != page.content %}{{ page.excerpt }}{% endif %}
+    {{ page.content }}
+    <p><time class="published-date">— {{ page.date | date: "%m/%d/%Y" }}</time></p>
+    {% if page.excerpt != page.content %}<p class="read-more"><a href="{{ page.url }}">read more</a></p>{% endif %}
   </div>
 {% endfor %}

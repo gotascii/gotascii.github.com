@@ -1,41 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>{{ page.title }}</title>
-  <link href="/atom.xml" rel="alternate" title="SORESCODE" type="application/atom+xml" />
-  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/railscasts.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
-  <script type="text/javascript" src="/javascripts/jquery-1.4.2.min.js"></script>
-</head>
-<body>
-  <div id="wrapper">
-    <div id="header">
-      <h1><a href="/"><img src="/images/logo.gif" alt="SORESCODE" /></a></h1>
-    </div>
-    <div id="nav">
-      <ul>
-        <li><a href="/" title="Articles">Articles</a></li>
-        <li><a href="/resume" title="Resume">Resume</a></li>
-        <li><a href="/talks" title="Talks">Talks</a></li>
-        <li><a href="/atom.xml">RSS</a></li>
-      </ul>
-    </div>
-    <div id="content">
-      <div id="main-content">
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justin Marney</title>
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/pygments.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="small-8 small-centered columns">
+        <div class="column row title">
+          <h1>Justin Marney</h1>
+        </div>
+        <div class="column row">
+          <h2><a href="/">words</a>, <a href="/talks">presentations</a>, <a
+              href="/resume">resume</a>, <a target="_blank"
+          href="http://soundcloud.com/3nnn">sound</a>.</h2>
+        </div>
+
         {{ content }}
+
+        <hr />
+        <div class="row footer">
+          <div class="small-9 columns">
+            <a href="/">words</a>,
+            <a href="/talks">presentations</a>,
+            <a href="/resume">resume</a>,
+            <a target="_blank" href="http://soundcloud.com/3nnn">sound</a>,
+            <a target="_blank" href="http://twitter.com/gotascii">twitter</a>,
+            <a target="_blank" href="https://www.linkedin.com/in/gotascii">linkedin</a>,
+            <a target="_blank" href="http://speakerrate.com/speakers/1">speakerrate</a>.
+          </div>
+          <div class="small-3 columns right">
+            <a target="_blank" href="">CC BY-NC-ND</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div id="footer">
-      <p>
-        <a href="/">sorescode</a> theme based on <a href="http://vostoktheme.com">vostok</a>.
-      </p>
-      <ul>
-        <li><a href="http://github.com/gotascii">Github</a></li>
-        <li><a href="http://twitter.com/gotascii">Twitter</a></li>
-      </ul>
-    </div>
-  </div>
-</body>
+  </body>
 </html>

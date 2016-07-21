@@ -25,10 +25,10 @@ Experience
     * Prioritize features, execute iterations, and refactor existing code-bases.
     * Solve integration challenges including enterprise SOAP APIs, MRIS real-estate databases, and Healthcare data exchanges.
     * Work with company founders to identify and implement team goals, infrastructure technologies, and development methodologies.
-    * Evaluate and interview candidates, as well as train and mentor Jr. developers.
+    * Evaluate and interview candidates, as well as train and mentor fellow developers.
 
     Project Portfolio
-    * Lead engineer on seven successfully launched Rails applications including the following.
+    * Lead engineer on seven successfully launched Rails applications including:
     * Heycraig (http://heycraigapp.com), Developer
       Customized sinatra and delayed_job app that creates real-time email alerts for items on Craigslist.
       Uses background processes to manage bounced emails in order to maintain high email delivery rates.

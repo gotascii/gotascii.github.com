@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-<div class="hentry">
-  <h2 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
-  <p class="updated">{{ page.date | date: "%m/%d/%Y" }}</p>
-  <div class="entry-content">
-    {{ page.excerpt }}
-    {{ content }}
-  </div>
+<div class="column row article">
+  <h3><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
+  {% if page.excerpt != page.content %}{{ page.excerpt }}{% endif %}
+  {{ page.content }}
+  <p><time class="published-date">— {{ page.date | date: "%m/%d/%Y" }}</time></p>
 </div>
