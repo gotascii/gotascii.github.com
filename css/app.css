@@ -131,6 +131,12 @@ ul a:focus {
   font-weight: bold;
 }
 
+.article p a,
+.article p a:hover,
+.article p a:focus {
+  color: #000;
+}
+
 .extended-article {
   max-height: 300px;
   position: relative;
