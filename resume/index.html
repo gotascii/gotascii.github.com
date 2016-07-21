@@ -30,9 +30,9 @@ layout: default
     <li>
       <span style="font-weight:bold;">Memcache Datacenter Migration</span>, Tech-Lead/Developer<br/>
       <ul>
-        <li>Migrated the primary 30 node Memcache cluster to a new DC without downtime.</li>
+        <li>Migrated the primary Memcache cluster to a new DC without clearing the cache.</li>
         <li>Configured and deployed <a target="_blank" href="https://github.com/facebook/mcrouter">Mcrouter</a>, a Memcache routing proxy.</li>
-        <li>Introduced controlled, monitored, availability-zone-aware node fallback configuration.</li>
+        <li>Introduced monitored, availability-zone-aware node fallback configuration.</li>
         <li>Added a hot standby cluster located in an alternate DC.</li>
         <li>Improved memcache logging, metrics gathering and on-call alerting.</li>
         <li>Reduced overall cluster load by identifying and removing unnecessary key space.</li>
@@ -41,7 +41,7 @@ layout: default
     <li>
       <span style="font-weight:bold;">Development Environment Migration</span>, Tech-Lead/Developer<br/>
       <ul>
-        <li>Migrated manual AWS based development environment to an automated Vagrant build system.</li>
+        <li>Migrated AWS based development environment to an automated Vagrant build system.</li>
         <li>Used <a target="_blank" href="https://www.packer.io/">Packer</a> to automate the generation of a complete Yammer development environment.</li>
         <li>Configured Jenkins to build nightly Vagrant images using Packer.</li>
         <li>Reduced development environment setup time from hours to minutes.</li>
@@ -52,7 +52,7 @@ layout: default
       <ul>
         <li>Refactoring and quality improvement project motivated by integration with <a target="_blank" href="https://products.office.com/en-us/business/explore-office-delve">Microsoft Delve</a>.</li>
         <li>Removed thousands of lines of code.</li>
-        <li>Simplified infrastructure design reducing hardware footprint by multiple physical hosts.</li>
+        <li>Simplified infrastructure design, reducing hardware footprint by multiple physical hosts.</li>
         <li>Resolved hundreds of bugs due to legacy multi-service double dispatch.</li>
         <li>Migrated and scrubbed millions of corrupted records.</li>
       </ul>
@@ -64,7 +64,7 @@ layout: default
         <li>Tuned decays and interaction weights to prevent "self-promoting threads".</li>
         <li>Handled user feed preferences and feed "stickiness".</li>
         <li>Created feed routing logic based on network messaging activity.</li>
-        <li>Implemented all business logic in Ruby/Rails, PostgreSQL, Memcached and RabbitMQ.</li>
+        <li>Implemented using Ruby/Rails, PostgreSQL, Memcached and RabbitMQ.</li>
       </ul>
     </li>
     <li>
@@ -73,7 +73,7 @@ layout: default
         <li>Allow a user to share a particular message into another thread.</li>
         <li>Provide a combined feed of all messages that shared a particular message.</li>
         <li>Accounted for group privacy toggling and membership on a per-user basis.</li>
-        <li>Implemented all required business logic in Ruby/Rails, PostgreSQL and Memcached.</li>
+        <li>Implemented using Ruby/Rails, PostgreSQL and Memcached.</li>
       </ul>
     </li>
   </ul>
