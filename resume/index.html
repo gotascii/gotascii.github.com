@@ -30,7 +30,7 @@ layout: default
     <li>
       <span style="font-weight:bold;">Memcache Datacenter Migration</span>, Tech-Lead/Developer<br/>
       <ul>
-        <li>Migrated the primary Memcache cluster to a new DC without clearing the cache.</li>
+        <li>Migrated the primary Memcache cluster to a new DC without downtime.</li>
         <li>Configured and deployed <a target="_blank" href="https://github.com/facebook/mcrouter">Mcrouter</a>, a Memcache routing proxy.</li>
         <li>Introduced monitored, availability-zone-aware node fallback configuration.</li>
         <li>Added a hot standby cluster located in an alternate DC.</li>
@@ -61,7 +61,7 @@ layout: default
       <span style="font-weight:bold;">Featured Feed</span>, Ruby/Rails Developer<br/>
       <ul>
         <li>Display a feed of relevant messages, per a variety of signals, as the main Yammer feed.</li>
-        <li>Tuned decays and interaction weights to prevent "self-promoting threads".</li>
+        <li>Tuned signal decays and interaction weights to prevent "self-promoting threads".</li>
         <li>Handled user feed preferences and feed "stickiness".</li>
         <li>Created feed routing logic based on network messaging activity.</li>
         <li>Implemented using Ruby/Rails, PostgreSQL, Memcached and RabbitMQ.</li>
@@ -72,7 +72,7 @@ layout: default
       <ul>
         <li>Allow a user to share a particular message into another thread.</li>
         <li>Provide a combined feed of all messages that shared a particular message.</li>
-        <li>Accounted for group privacy toggling and membership on a per-user basis.</li>
+        <li>Accounted for group privacy toggling and message visibility on a per-user basis.</li>
         <li>Implemented using Ruby/Rails, PostgreSQL and Memcached.</li>
       </ul>
     </li>
