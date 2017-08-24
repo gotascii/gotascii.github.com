@@ -170,3 +170,9 @@ ul a:focus {
 h1 {
   font-size: 3rem
 }
+
+@media print {
+  h1 {
+    font-size: 2.5rem
+  }
+}
