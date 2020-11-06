@@ -1,5 +1,4 @@
-FROM ruby:2.3.0
-MAINTAINER Justin Marney <gotascii@gmail.com>
+FROM ruby:2.6.3
 
 EXPOSE 4000
 
@@ -10,8 +9,6 @@ RUN chown gotascii:gotascii /opt/gotascii.github.com
 
 WORKDIR /opt/gotascii.github.com
 
-# Copy app such that container runs w/o mounted volume.
-# When mounting local volume, /opt/whatever is shadowed.
 COPY . ./
 RUN chown -R gotascii:gotascii \.* *
 
