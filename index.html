@@ -1,13 +1,9 @@
 ---
-title: Justin Marney
+title: Free Metal
 layout: default
 ---
 {% for page in site.posts %}
-  <div class="column row article{% if page.excerpt != page.content %} extended-article{% endif %}">
-    <h3><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
-    {% if page.excerpt != page.content %}{{ page.excerpt }}{% endif %}
-    {{ page.content }}
-    <p><time class="published-date">— {{ page.date | date: "%m/%d/%Y" }}</time></p>
-    {% if page.excerpt != page.content %}<p class="read-more"><a href="{{ page.url }}">read more</a></p>{% endif %}
-  </div>
+<div class="column row article{% if page.excerpt != page.content %} extended-article{% endif %}">
+  {{ page.content }}
+</div>
 {% endfor %}
