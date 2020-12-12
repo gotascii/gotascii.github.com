@@ -1,3 +1,9 @@
-url: http://sorescode.com
-exclude: ["vendor", "bin", "Gemfile", "Gemfile.lock", "README.textile", "CNAME"]
+url: http://dopethrone.com
+exclude: ["vendor", "Dockerfile", "bin", "Gemfile", "Gemfile.lock", "README.textile", "CNAME", "node_modules", "package.json", "package-lock.json"]
 highlighter: rouge
+plugins:
+  - jekyll-redirect-from
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title

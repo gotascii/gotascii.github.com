@@ -13,7 +13,7 @@ COPY . ./
 RUN chown -R gotascii:gotascii \.* *
 
 USER gotascii
-RUN gem install jekyll
+RUN gem install jekyll jekyll-redirect-from
 
 ENV PORT 4000
 
