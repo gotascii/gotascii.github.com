@@ -19,23 +19,20 @@
       </div>
       <div class="column row">
         <h2>
-          <a href="/">2020</a>,
-          <a href="/">2019</a>,
-          <a href="/">2018</a>,
-          <a href="/">2017</a></h2>
+          {% capture years %}{% for d in site.data %}{{ d[0] }},{% endfor %}{% endcapture %}
+          {% assign years = years | split: "," | sort | reverse %}
+          {% capture pageYear %}{{ page.categories[0] }}{% endcapture %}
+          {% for year in years %}
+            {% if year == pageYear %}{{ pageYear }}{% else %}<a href="/{{ year }}/aoty">{{ year }}</a>{% endif %}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        </h2>
       </div>
       <div class="column row">
         <h3>
-          <a href="/">AOTY</a>,
-          <a href="/">Death</a>,
-          <a href="/">Black</a>,
-          <a href="/">Doom</a>,
-          <a href="/">Sludge</a>,
-          <a href="/">Stoner</a>,
-          <a href="/">Industrial</a>,
-          <a href="/">Electronic</a>,
-          <a href="/">EBM</a>,
-          <a href="/">?</a>
+          {% capture pageGenre %}{{ page.categories[1] }}{% endcapture %}
+          {% for genre in site.data[pageYear] %}
+            {% if genre[0] == pageGenre %}{{ pageGenre | capitalize }}{% else %}<a href="/{{ pageYear }}/{{ genre[0] }}">{{ genre[0] | capitalize }}</a>{% endif %}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
         </h3>
       </div>
 
