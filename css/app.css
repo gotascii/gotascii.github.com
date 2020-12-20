@@ -22,6 +22,12 @@ object {
   padding: 1rem;
 }
 
+iframe {
+  border: 0;
+  width: 100%;
+  height: 120px;
+}
+
 figure {
   margin: 0 0 1rem 0;
 }
